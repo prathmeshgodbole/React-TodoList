@@ -28,7 +28,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?  *Click On Todo to DELETE.*</p>
+    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one? </p>
 
   );
 

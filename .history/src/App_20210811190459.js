@@ -8,7 +8,7 @@ const App = () => {
   const [courseGoals, setCourseGoals] = useState([
     { text: 'Do all exercises!', id: 'g1' },
     { text: 'Finish the course!', id: 'g2' },
-    { text: 'Click on me to DELETE!', id: 'g3' }
+    { text: 'Click !', id: 'g3' }
 
   ]);
 
@@ -28,8 +28,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?  *Click On Todo to DELETE.*</p>
-
+    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
   );
 
   if (courseGoals.length > 0) {
